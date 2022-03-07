@@ -122,7 +122,7 @@ public class MSButton {
       }
       
       //if there is a bomb nearby, 
-      else if(countMines(myRow, myCol) > 0) { myLabel = Integer.toString(countMines(myRow, myCol)); 
+      else if(countMines(myRow, myCol) > 0) { myLabel = "" + countMines(myRow, myCol); 
       System.out.println(myLabel); }
       
       //open surrounding not bomb
